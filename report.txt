@@ -1,0 +1,15 @@
+BHT Classical Computing 
+
+intro
+BHT is a conventional Computing algorithm for locating collisons in hash functions . the algorithm works by iteratively creating random hash function inputs and determining whether any of them yield the same output.
+
+Use Cases
+
+1. Detecting collisions in crytopgraphic hash functions in securing communications, digital signatures.
+2. Computer security=> the algorithm can be used to detect vulnarabilities in the computer systems.
+
+Insights/Observations
+
+1. The number of input bits n and the number of iterations k have a big impact on the performance of the algorithm. the algorithm becomes more computationally intensive as these values increases and the possibility of collision detection increases as well.
+
+2.The algorithm can be improved through the use of more efficient search algorithms such as binary search tree or hash tables.
