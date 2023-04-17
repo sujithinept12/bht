@@ -61,3 +61,6 @@ if result is not None:
     print("Collision found! Input string: ", result)
 else:
     print("No collision found after 1 iteration.")
+    
+    
+  
