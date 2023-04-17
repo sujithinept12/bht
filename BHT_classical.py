@@ -53,14 +53,14 @@ def f(input_str):
         return 0
 
 
-# Call the bht_classical function with f, n=3, and k=1
+# Call the bht_classical function with f, n=5, and k=2
 result = bht_classical(f, 5, 2)
 
 # Print the result
 if result is not None:
     print("Collision found! Input string: ", result)
 else:
-    print("No collision found after 1 iteration.")
+    print("No collision found after k iterations.")
     
     
   
