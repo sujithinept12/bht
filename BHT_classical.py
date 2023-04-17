@@ -20,8 +20,8 @@ def bht_classical(f, n, k):
                     output_register = [
                         1 if x == 0 else 0 for x in output_register]
                     collision_available = True
-            # increment the input register
-            for k in range(n-1, -1, -1):
+         # increment the input register
+         for k in range(n-1, -1, -1):
                 if input_register[k] == 0:
                     input_register[k] = 1
                     break
