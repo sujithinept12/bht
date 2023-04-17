@@ -57,7 +57,7 @@ def f(input_str):
 result = bht_classical(f, 5, 2)
 
 # Print the result
-#if result is not None:
-#    print("Collision found! Input string: ", result)
-#else:
-#    print("No collision found after 1 iteration.")
+if result is not None:
+    print("Collision found! Input string: ", result)
+else:
+    print("No collision found after 1 iteration.")
